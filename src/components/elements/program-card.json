@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_elements_program_cards",
+  "info": {
+    "displayName": "Program Card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "content": {
+      "type": "text"
+    },
+    "categories": {
+      "type": "enumeration",
+      "enum": [
+        "Solar Sister",
+        "Net Zero Heroes",
+        "GAWIREA Lab",
+        "GAWIREA Edu-hub",
+        "Sinari Project",
+        "Mojuk"
+      ]
+    },
+    "date": {
+      "type": "date"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.link"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

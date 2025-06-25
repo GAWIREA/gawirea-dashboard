@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_blocks_heading_with_description_blocks",
+  "info": {
+    "displayName": "Heading With Description Block"
+  },
+  "options": {},
+  "attributes": {
+    "headline": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

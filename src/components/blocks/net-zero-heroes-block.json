@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_blocks_net_zero_heroes_blocks",
+  "info": {
+    "displayName": "Net Zero Heroes Block"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "headline": {
+      "type": "text"
+    },
+    "content": {
+      "type": "text"
+    },
+    "card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.program-card"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.info-block",
+        "blocks.hero-section-2",
+        "blocks.team-block",
+        "blocks.partner-block",
+        "blocks.solar-sister-block",
+        "blocks.net-zero-heroes-block",
+        "blocks.gawirea-lab",
+        "blocks.gawirea-edu-hub-block",
+        "blocks.mojuk-block",
+        "blocks.sinari-project-block",
+        "blocks.impact-block",
+        "blocks.heading-with-description-block"
+      ]
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    }
+  }
+}

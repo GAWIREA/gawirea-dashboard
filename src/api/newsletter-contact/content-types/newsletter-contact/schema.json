@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "newsletter_contacts",
+  "info": {
+    "singularName": "newsletter-contact",
+    "pluralName": "newsletter-contacts",
+    "displayName": "Newsletter Contact"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Request Collaborated",
+        "Personal"
+      ]
+    },
+    "email": {
+      "type": "email"
+    },
+    "message": {
+      "type": "text"
+    }
+  }
+}

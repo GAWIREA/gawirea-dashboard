@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "impacts",
+  "info": {
+    "singularName": "impact",
+    "pluralName": "impacts",
+    "displayName": "Impact"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "categories": {
+      "type": "enumeration",
+      "enum": [
+        "Solar Sister",
+        "Net Zero Heroes",
+        "GAWIREA Lab",
+        "GAWIREA Edu-hub",
+        "Sinari Project",
+        "Mojuk"
+      ]
+    },
+    "date": {
+      "type": "date"
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.link"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_blocks_impact_blocks",
+  "info": {
+    "displayName": "Impact Block"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "content": {
+      "type": "text"
+    },
+    "card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.program-card"
+    }
+  }
+}

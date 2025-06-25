@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_blocks_solar_sister_blocks",
+  "info": {
+    "displayName": "Solar Sister Block"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "headline": {
+      "type": "text"
+    },
+    "content": {
+      "type": "text"
+    },
+    "card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.program-card"
+    }
+  }
+}

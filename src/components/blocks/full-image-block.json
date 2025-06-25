@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_blocks_full_image_blocks",
+  "info": {
+    "displayName": "Full Image Block"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

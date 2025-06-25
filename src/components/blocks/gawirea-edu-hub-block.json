@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_blocks_gawirea_edu_hub_blocks",
+  "info": {
+    "displayName": "GAWIREA Edu-hub Block"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "headline": {
+      "type": "text"
+    },
+    "content": {
+      "type": "text"
+    },
+    "card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.program-card"
+    }
+  }
+}

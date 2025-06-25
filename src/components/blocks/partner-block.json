@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_blocks_partner_blocks",
+  "info": {
+    "displayName": "Partner Block",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "tab": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.tab"
+    },
+    "partners": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.partner-card"
+    }
+  }
+}

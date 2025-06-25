@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_elements_team_cards",
+  "info": {
+    "displayName": "Team Card"
+  },
+  "options": {},
+  "attributes": {
+    "membersImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "membersName": {
+      "type": "text"
+    },
+    "membersRole": {
+      "type": "text"
+    }
+  }
+}

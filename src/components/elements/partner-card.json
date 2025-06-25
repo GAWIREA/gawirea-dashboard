@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_elements_partner_cards",
+  "info": {
+    "displayName": "Partner Card"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "partnerName": {
+      "type": "text"
+    },
+    "partnerDescription": {
+      "type": "text"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.link"
+    }
+  }
+}

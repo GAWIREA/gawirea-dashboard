@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_blocks_sinari_project_blocks",
+  "info": {
+    "displayName": "Sinari Project Block"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "headline": {
+      "type": "text"
+    },
+    "content": {
+      "type": "text"
+    },
+    "card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.program-card"
+    }
+  }
+}

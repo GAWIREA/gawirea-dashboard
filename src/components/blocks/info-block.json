@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_blocks_info_blocks",
+  "info": {
+    "displayName": "Journey Block",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "headline1": {
+      "type": "string"
+    },
+    "content1": {
+      "type": "text"
+    },
+    "headline2": {
+      "type": "string"
+    },
+    "content2": {
+      "type": "text"
+    },
+    "headline3": {
+      "type": "string"
+    },
+    "content3": {
+      "type": "text"
+    }
+  }
+}
