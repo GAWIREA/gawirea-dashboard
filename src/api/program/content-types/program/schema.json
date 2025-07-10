@@ -52,6 +52,16 @@
       "type": "component",
       "repeatable": false,
       "component": "elements.link"
+    },
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.paragraph-with-image-block",
+        "blocks.paragraph-block",
+        "blocks.heading-with-description-block",
+        "blocks.heading-block",
+        "blocks.full-image-block"
+      ]
     }
   }
 }

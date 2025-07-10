@@ -40,9 +40,21 @@ export interface BlocksGawireaLab extends Struct.ComponentSchema {
 export interface BlocksHeadingBlock extends Struct.ComponentSchema {
   collectionName: 'components_blocks_heading_blocks';
   info: {
+    description: '';
     displayName: 'Heading Block';
   };
   attributes: {
+    author: Schema.Attribute.String;
+    categories: Schema.Attribute.Enumeration<
+      [
+        'Sinari Project',
+        'GAWIREA Lab',
+        'GAWIREA Edu-hub',
+        'Solar Sister',
+        'Mojuk',
+        'Net Zero Heroes',
+      ]
+    >;
     heading: Schema.Attribute.String;
     linkId: Schema.Attribute.String;
   };

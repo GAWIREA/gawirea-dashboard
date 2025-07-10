@@ -526,6 +526,7 @@ export interface ApiHomePageHomePage extends Struct.SingleTypeSchema {
 export interface ApiImpactImpact extends Struct.CollectionTypeSchema {
   collectionName: 'impacts';
   info: {
+    description: '';
     displayName: 'Impact';
     pluralName: 'impacts';
     singularName: 'impact';
@@ -534,6 +535,15 @@ export interface ApiImpactImpact extends Struct.CollectionTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
+    blocks: Schema.Attribute.DynamicZone<
+      [
+        'blocks.paragraph-with-image-block',
+        'blocks.paragraph-block',
+        'blocks.heading-with-description-block',
+        'blocks.heading-block',
+        'blocks.full-image-block',
+      ]
+    >;
     categories: Schema.Attribute.Enumeration<
       [
         'Solar Sister',
@@ -655,6 +665,15 @@ export interface ApiProgramProgram extends Struct.CollectionTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
+    blocks: Schema.Attribute.DynamicZone<
+      [
+        'blocks.paragraph-with-image-block',
+        'blocks.paragraph-block',
+        'blocks.heading-with-description-block',
+        'blocks.heading-block',
+        'blocks.full-image-block',
+      ]
+    >;
     categories: Schema.Attribute.Enumeration<
       [
         'Solar Sister',

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "impact",
     "pluralName": "impacts",
-    "displayName": "Impact"
+    "displayName": "Impact",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -21,11 +22,12 @@
       "targetField": "title"
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "categories": {
       "type": "enumeration",
@@ -49,6 +51,16 @@
       "type": "component",
       "repeatable": false,
       "component": "elements.link"
+    },
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.paragraph-with-image-block",
+        "blocks.paragraph-block",
+        "blocks.heading-with-description-block",
+        "blocks.heading-block",
+        "blocks.full-image-block"
+      ]
     }
   }
 }
