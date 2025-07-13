@@ -535,6 +535,7 @@ export interface ApiImpactImpact extends Struct.CollectionTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
+    author: Schema.Attribute.String;
     blocks: Schema.Attribute.DynamicZone<
       [
         'blocks.paragraph-with-image-block',

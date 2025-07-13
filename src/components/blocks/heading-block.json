@@ -11,20 +11,6 @@
     },
     "linkId": {
       "type": "string"
-    },
-    "author": {
-      "type": "string"
-    },
-    "categories": {
-      "type": "enumeration",
-      "enum": [
-        "Sinari Project",
-        "GAWIREA Lab",
-        "GAWIREA Edu-hub",
-        "Solar Sister",
-        "Mojuk",
-        "Net Zero Heroes"
-      ]
     }
   }
 }
